@@ -15,7 +15,7 @@ for capacity in present_capacities:
     counts["exchange"]+=1
   else:
     counts["failed"]+=1
-return counts
+ return counts
 
 def test_bucketing_by_health():
   print("Counting batteries by SoH...\n")
